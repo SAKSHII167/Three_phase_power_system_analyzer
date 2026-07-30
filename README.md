@@ -1,56 +1,115 @@
-Three Phase Power System Analyzer
+# Three-Phase Power System Analyzer
 
-A Python-based electrical engineering application for analysing balanced three-phase power systems.
+A Python-based electrical engineering application for analyzing balanced three-phase AC power systems.
 
-The project calculates important electrical parameters, generates waveform plots, and exports the analysis into an Excel report.
+The program performs common power system calculations, generates waveform plots, and exports the complete analysis into an Excel report.
 
-Features:
+---
 
-Phase Voltage (RMS)
-Peak Voltage
-Line Voltage
-Frequency
-Angular Frequency
-Phase Current
-Line Current
-Active Power
-Reactive Power
-Apparent Power
-Power Factor
-Waveform plotting
-Automatic Excel report generation
+## Features
 
-Technologies Used:
+- Balanced Three-Phase Voltage & Current Analysis
+- Phase and Line Voltage Calculation
+- Active, Reactive and Apparent Power Calculation
+- Power Factor Calculation
+- Frequency & Angular Frequency
+- Voltage and Current Waveform Generation
+- Automatic Excel Report Generation
+- PNG Waveform Export
 
-Python
-NumPy
-Pandas
-Matplotlib
-OpenPyXL
+---
 
-Sample Output:
-The project generates:
+## Technologies Used
 
-Excel analysis report
-Three-phase waveform plot
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- OpenPyXL
 
-Applications:
+---
 
-Electrical Engineering students
-Power System Analysis
-Academic Mini Projects
-Laboratory Demonstrations
-Learning Three Phase Systems
-Future Improvements
-Transformer loading calculation
-Voltage regulation analysis
-Transmission line loss calculation
-Load flow analysis
-Transformer efficiency calculator
-Interactive GUI
-PDF report generation
+## Project Structure
 
-Author
-Sakshi Tiwari
-B.Tech, Electrical Engineering
-Madan Mohan Malaviya University of Technology
+```
+three_phase_power_system_analyzer/
+
+│── main.py
+│── calculations.py
+│── waveform.py
+│── plotter.py
+│── excel_rep.py
+│── requirements.txt
+│── README.md
+│── sample_outputs/
+│     ├── sample_report.xlsx
+│     └── sample_waveform.png
+```
+
+---
+
+## Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/SAKSHII167/Three_phase_power_system_analyzer.git
+```
+
+Move into the project directory
+
+```bash
+cd Three_phase_power_system_analyzer
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application
+
+```bash
+python main.py
+```
+
+---
+
+## Sample Outputs
+
+The project generates
+
+- Excel Engineering Report
+- Three-Phase Waveform Plot (PNG)
+
+Sample outputs are included inside the **sample_outputs** folder.
+
+---
+
+## Future Improvements
+
+- Transformer Loading Calculator
+- Voltage Regulation Calculator
+- Transmission Line Loss Calculator
+- Load Flow Analysis
+- Per Unit System Calculations
+- Fault Analysis
+- GUI using Tkinter or PyQt
+
+---
+
+## Author
+
+**Sakshi Tiwari**
+
+B.Tech Electrical Engineering
+
+Madan Mohan Malaviya University of Technology (MMMUT)
+
+GitHub:
+https://github.com/SAKSHII167
+
+LinkedIn:
+https://www.linkedin.com/in/sakshi-tiwari-16705-lko
+
